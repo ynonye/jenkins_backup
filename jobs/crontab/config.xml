@@ -17,7 +17,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#winter_2019\&quot;, \&quot;username\&quot;: \&quot;webhookbot\&quot;, \&quot;text\&quot;: \&quot;This is posted to #winter_2019 and comes from a bot named webhookbot.\&quot;, \&quot;icon_emoji\&quot;: \&quot;:ghost:\&quot;}&quot; https://hooks.slack.com/services/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</command>
+      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#winter_2019\&quot;, \&quot;username\&quot;: \&quot;ynonye\&quot;, \&quot;text\&quot;: \&quot;This is posted to #winter_2019 and comes from a bot named webhookbot.\&quot;, \&quot;icon_emoji\&quot;: \&quot;:ghost:\&quot;}&quot; https://hooks.slack.com/services/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</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
